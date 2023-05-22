@@ -50,7 +50,6 @@ function onSubmitSearch(event) {
       } else {
         loadMoreBtn.show();
       }
-      console.log(marcup);
     })
     .catch(error => {
       console.log(error);
