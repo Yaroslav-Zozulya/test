@@ -1,5 +1,5 @@
 export default function createMarcup(images) {
-  return (marcup = images
+  return images
     .map(
       ({
         webformatURL,
@@ -30,5 +30,5 @@ export default function createMarcup(images) {
 </div> </a>`;
       }
     )
-    .join(''));
+    .join('');
 }
